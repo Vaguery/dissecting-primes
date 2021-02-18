@@ -27,7 +27,7 @@ end
 
 winners = []
 10000.times do
-  trial = 9.times.collect {|i| digits.sample()}.sort.reverse
+  trial = 10.times.collect {|i| digits.sample()}.sort.reverse
 
   works = avoids_factor?(trial,3)
 
